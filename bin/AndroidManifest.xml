@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ppl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.example.ppl.music"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.ppl.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ppl.Play"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.Categories"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.PlayView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_play_view"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.Play_view"
+            android:label="@string/title_activity_play_view" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.Highscore"
+            android:label="@string/title_activity_highscore" >
+        </activity>
+        <activity
+            android:name="com.example.ppl.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+    </application>
+
+</manifest>
