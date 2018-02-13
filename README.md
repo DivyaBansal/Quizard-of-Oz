@@ -7,6 +7,7 @@ using java, XML. The Quizard of Oz has the following features:
 -It has 4 different categories which are You think you know SNU? ,Are
 you a 90's kid?, General Knowledge and Game of Thrones. The detailed
 description of all the categories are given in the document further.
+
 - It has a background music playing during the game which can be stopped
 as per the user's wish
 
