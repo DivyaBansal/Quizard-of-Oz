@@ -29,6 +29,7 @@ four options are given out of which there is only one correct option.
 an option to skip that question and answer another one.
 
 -At the end each game the scorecard of the player is displayed.
+
 - Also the quiz app displays the high scores of the three players with their
 highest scores against their sign in name.
 
