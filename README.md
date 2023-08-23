@@ -1,5 +1,5 @@
 # Quizard-of-Oz
-A fun quiz app developed for a bachelors project
+A fun quiz app developed for a bachelor's project
 
 Quizard of Oz is an Android-based quiz game which was developed
 using Java, XML. It is a multiple choice type quiz game. For each question
